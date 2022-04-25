@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "transactions",
+						"type": "int256"
+					}
+				],
+				"name": "Block",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "hashin",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "invest",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/transact.sol": "transact"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/transact.sol": {
+			"keccak256": "0xc929e3340670e626bdd9a5e061df865a8e6872d6591acde3011129ba813fdcbb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://35b86912e6681fdde6858677b1f3a342c270dcaaf2165b4e5f587d119839aded",
+				"dweb:/ipfs/QmQjcDnpeg8wbTUZkSrUYkejPbiTZzWQekP9q6TQqVon1h"
+			]
+		}
+	},
+	"version": 1
+}
